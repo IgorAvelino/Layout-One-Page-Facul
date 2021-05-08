@@ -14,17 +14,27 @@ img.logo{
     max-width: 200px;
 }
 /* BACKGROUDS PARALAX */
-
+.background-parallax-slide{
+    background-image: url("../img/imgs/background-parallax-home.png");
+    background-attachment: fixed;
+}
 /* BACKGROUNDS COLORS */
 
 /* CORES */
-
+.color-white{color: #fff}
 /* RESETS */
 
 /* FONT SIZES */
 
 /* PADDINGS */
-
+.padding-10{padding: 10px 0;}
+.padding-20{padding: 20px 0;}
+.padding-30{padding: 30px 0;}
+.padding-40{padding: 40px 0;}
+.padding-50{padding: 50px 0;}
+.padding-60{padding: 60px 0;}
+.padding-70{padding: 70px 0;}
+.padding-80{padding: 80px 0;}
 /* HEADER */
 .header{
     background: #35b5e5;
@@ -49,4 +59,21 @@ ul.menu li a{
     margin: 8px 30px;
     color: #fff;
     font-size: 16px;
+}
+
+/* SLIDES */
+.slide{padding: 100px 0;}
+
+.titulo{font-size: 40px;}
+
+.descricao-slide{padding-bottom: 20px; font-size: 14px;}
+
+/* BTNS */
+.btn-saiba-mais{
+    color: #fff;
+    background-color: #eadc33;
+    padding: 10px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    text-transform: uppercase;
 }
