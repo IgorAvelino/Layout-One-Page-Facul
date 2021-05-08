@@ -48,8 +48,11 @@ img.logo{
 
 /* CORES */
 .color-white{color: #fff}
+.color-web{color: #357CB8;}
+.color-laravel{color: #fb5541;}
+.color-html5{color: #1C53F9;}
 /* RESETS */
-
+a:hover{text-decoration: none !important;}
 /* FONT SIZES */
 
 /* PADDINGS */
@@ -102,4 +105,13 @@ ul.menu li a{
     border-radius: 4px;
     font-size: 16px;
     text-transform: uppercase;
+}
+
+/* CURSOS */
+.curso{margin-top: 22px;}
+.img-curso{max-width: 260px;}
+.titulo-curso{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 8px;
 }
