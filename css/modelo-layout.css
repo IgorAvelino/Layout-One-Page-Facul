@@ -1,5 +1,18 @@
 /* UTILIDADES */
+*{
+    margin: 0;
+    padding: 0;
+}
 
+.oculta{
+    font-size: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+img.logo{
+    max-width: 200px;
+}
 /* BACKGROUDS PARALAX */
 
 /* BACKGROUNDS COLORS */
@@ -13,4 +26,27 @@
 /* PADDINGS */
 
 /* HEADER */
+.header{
+    background: #35b5e5;
+    float: left;
+    width: 100%;
+    padding: 15px;
+}
 
+.logo{
+    float: left;
+}
+
+ul.menu{
+    list-style: none;
+    float: right;
+    margin-top: 8px;
+}
+
+ul.menu li{display: inline;}
+
+ul.menu li a{
+    margin: 8px 30px;
+    color: #fff;
+    font-size: 16px;
+}
