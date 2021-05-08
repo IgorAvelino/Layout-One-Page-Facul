@@ -44,6 +44,11 @@ img.logo{
     background-image: url("../img/imgs/background-parallax-home.png");
     background-attachment: fixed;
 }
+
+.background-parallax-detalhes{
+    background-image: url("../img/imgs/background-parallax.jpg");
+    background-attachment: fixed;
+}
 /* BACKGROUNDS COLORS */
 
 /* CORES */
@@ -96,6 +101,10 @@ ul.menu li a{
 .titulo{font-size: 40px;}
 
 .descricao-slide{padding-bottom: 20px; font-size: 14px;}
+
+.titulo-sobre{
+    color: #33cae5;
+}
 
 /* BTNS */
 .btn-saiba-mais{
