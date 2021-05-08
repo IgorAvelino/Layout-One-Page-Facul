@@ -11,7 +11,33 @@
 }
 
 img.logo{
-    max-width: 200px;
+    max-width: 250px;
+}
+
+.clear{clear: both;}
+
+.divider{
+    background: url("../img/imgs/divider.png");
+    width: 180px;
+    margin: 0 auto;
+    padding: 6px;
+}
+
+.titulo{
+    text-transform: uppercase;
+    color: #33b5e5;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.detalhe{
+    color: #4a4a4a;
+    line-height: 44px;
+    margin: 5px;
+}
+
+.flex{
+    display: flex;
 }
 /* BACKGROUDS PARALAX */
 .background-parallax-slide{
