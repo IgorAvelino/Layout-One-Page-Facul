@@ -54,7 +54,6 @@ img.logo{
     background-image: url("../img/imgs/background-parallax.jpg");
     background-attachment: fixed;
 }
-/* BACKGROUNDS COLORS */
 
 /* CORES */
 .color-white{color: #fff}
@@ -63,7 +62,6 @@ img.logo{
 .color-html5{color: #1C53F9;}
 /* RESETS */
 a:hover{text-decoration: none !important;}
-/* FONT SIZES */
 
 /* PADDINGS */
 .padding-10{padding: 10px 0;}
@@ -161,3 +159,52 @@ ul.menu li a{
 }
 .titulo-detalhe-projeto{font-size: 20px;}
 .descricao-projeto{font-size: 12px;}
+
+/* CONTATO */
+.contato-form{
+    background-color: #505050;
+    padding: 50px 0;
+    margin-top: 20px;
+}
+
+/* FORM */
+.aulaweb-form{
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.aulaweb-form input{
+    width: 100%;
+    margin: 5px;
+    height: 50px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+.aulaweb-form textarea{
+    padding: 5px;
+    border: none;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    min-height: 120px;
+    margin: 5px;
+}
+
+.aulaweb-form input[type="submit"]{
+    background-color: #FFCA33;
+    color: #fff;
+    font-size: 18px;
+    width: 140px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color .5s;
+}
+.aulaweb-form input[type="submit"]:hover{
+    background-color: #fff;
+    color: #FFCA33;
+}
