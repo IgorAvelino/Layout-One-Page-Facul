@@ -208,3 +208,10 @@ ul.menu li a{
     background-color: #fff;
     color: #FFCA33;
 }
+
+/* copyright */
+.copyright{
+    background-color: #333;
+    padding: 8px;
+    color: #fff;
+}
